@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      text-align: center;
+    }
+    .container p{
+      margin: 20px 0;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://imglogocolorappiferre.netlify.app/LogoColor.png" alt="Logo" />
+    <h1>Bienvenido a nuestra plataforma</h1>
+    <p>Estamos encantados de que te unas a nosotros. Por favor, confirma tu correo electrónico haciendo clic en el botón de abajo.</p>
+    <a href="<%=confirmationLink %>" style="background-color: #4c8caf; color: white; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 20%; text-decoration: none;">Confirmar correo electrónico</a>
+    <p>Si tienes algún problema, no dudes en ponerte en contacto con nosotros.</p>
+    <p>¡Gracias!</p>
+  </div>
+</body>
+</html>
