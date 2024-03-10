@@ -5,6 +5,7 @@ module.exports = {
         port: process.env.APP_PORT || 4000,
         jwt_secret: process.env.JWT_SECRET,
         jwt_expires_in: process.env.JWT_EXPIRES_IN || 86400,
+        app_url: process.env.APP_URL || 'http://localhost:4000',
     },
 
     db: {

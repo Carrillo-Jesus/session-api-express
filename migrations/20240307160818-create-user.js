@@ -18,6 +18,10 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
+      confirmed: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

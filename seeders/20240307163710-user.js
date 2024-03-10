@@ -9,6 +9,7 @@ module.exports = {
         username: 'admin',
         password: hashedPassword,
         email: 'admin@admin.com',
+        confirmed: true,
         createdAt: new Date(),
         updatedAt: new Date()
       }

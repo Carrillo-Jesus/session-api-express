@@ -16,7 +16,8 @@ User.init(
   {
     username: DataTypes.STRING,
     password: DataTypes.STRING,
-    email: DataTypes.STRING
+    email: DataTypes.STRING,
+    confirmed: {type: DataTypes.BOOLEAN, defaultValue: false,},
   }, 
   { 
     sequelize: getDbInstance(), 
